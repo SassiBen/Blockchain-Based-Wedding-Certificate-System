@@ -111,15 +111,15 @@ The second phase of the project involved designing a user-friendly web interface
     - Users input partner names, wedding date, and children.
     - On submission, a transaction is sent to the blockchain.
     - The smart contract address is displayed upon successful creation.
-    - ![Capture1.PNG](https://example.com/Capture1.png)
+    
 - **Verifying a Wedding Certificate**:
     - Users input the certificate's smart contract address.
     - The interface displays the details stored in the blockchain.
-    - ![Capture2.PNG](https://example.com/Capture2.png)
+    
 - **Filing for Divorce**:
     - Users can file for divorce using the certificate's smart contract address.
     - The interface updates the divorce status upon successful transaction.
-    - ![Capture3.PNG](https://example.com/Capture3.png)
+    
 
 ### User Experience
 
