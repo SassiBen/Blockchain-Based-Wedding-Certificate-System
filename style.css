@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('back.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Adjusted for better readability */
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Added box-shadow for a subtle depth effect */
+}
+
+h1, p {
+    text-align: center;
+    color: #ffdfba; /* Light peach color for titles and paragraphs */
+}
+
+.section {
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #ffdfba;
+    color: #ffdfba;
+    padding-bottom: 5px;
+    margin-top: 20px; /* Added some space above section titles */
+}
+
+label {
+    display: block;
+    margin-top: 20px; /* Increased spacing for better readability */
+    color: #ffdfba; /* Light peach color for label text */
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Added top margin for spacing */
+    border: 1px solid #ffdfba;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 16px; /* Increased font size for better readability */
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #666;
+}
+
+button {
+    background-color: #ffdfba;
+    color: #333;
+    border: none;
+    padding: 12px 24px; /* Slightly larger button padding for a more touch-friendly design */
+    margin-top: 20px; /* Added more spacing above buttons */
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+}
+
+button:hover {
+    background-color: #eeca9d; /* A slightly darker peach */
+    color: #fff;
+}
+
+#debugArea, #currentBlockNumber {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px; /* Consistent top margin for elements */
+}
+
+#currentBlockNumber {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    textarea {
+        font-size: 14px; /* Slightly smaller font size on smaller screens */
+    }
+}
